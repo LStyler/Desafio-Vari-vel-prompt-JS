@@ -1,0 +1,39 @@
+body {
+    background-image: linear-gradient(45deg, cyan, yellow);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+body:hover{
+    background-color: linear-gradient(45deg, blueviolet, violet);
+}
+.box {
+    background-color: rgba(0, 0, 0, 0.9);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 70px;
+    border-radius: 15px;
+    color: whitesmoke;
+
+}
+
+button {
+    padding: 15px;
+    width: 100%;
+    border-radius: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: whitesmoke;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    animation: myanimation 2s linear infinite;
+    background-color: violet;
+    transition: box-shadow 0.5s ease, background-color 0.5s ease;
+}
+button:hover{
+    background-color: blueviolet;
+    box-shadow: 10px 10px 5px grey;
+    cursor: pointer;
+}
+
